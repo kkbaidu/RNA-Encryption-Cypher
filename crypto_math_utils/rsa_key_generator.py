@@ -3,8 +3,8 @@
 # RSA is an asymmetric cryptographic algorithm that uses two mathematically related keys
 
 import random, sys, os
-from rabinMiller_module import generateLargePrime
-from cryptomath_module import gcd, findModInverse
+from rabin_miller import generateLargePrime
+from crypto_math import gcd, findModInverse
 
 def main():
     """
