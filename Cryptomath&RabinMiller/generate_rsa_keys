@@ -10,11 +10,13 @@ def generateKey(keySize):
     print('Generating p prime...')
     p = generateLargePrime(keySize)
     print('p prime generated:', p)
+    
     print('Generating q prime...')
     q = generateLargePrime(keySize)
     print('q prime generated:', q)
+
     n = p * q
-    print('n = p * q =', n)
+    print('n (p * q) calculated:', n)
 
     # Step 2: Create a number e that is relatively prime to (p-1)*(q-1).
     print('Generating e that is relatively prime to (p-1)*(q-1)...')
