@@ -4,6 +4,11 @@ from Crypto.PublicKey import RSA   # For RSA key generation and management
 from Crypto.Cipher import PKCS1_OAEP  # For RSA encryption/decryption with OAEP padding
 import base64                      # For encoding binary data to text format
 
+
+# OAEP, or Optimal Asymmetric Encryption Padding, is a padding scheme used with RSA to enhance its security.
+# It works by adding randomness to the plaintext before encryption, making it more resistant to certain attacks.
+# This is achieved by using two hash functions (G and H) and a random "seed" to mask and transform the message in a way that adds complexity and unpredictability.
+
 def generate_keys():
     """
     Generate RSA key pair (private and public keys)
@@ -88,6 +93,7 @@ def decrypt_message(encoded_ciphertext, private_key):
 user_message = input("Please enter the message you want to encrypt here:")
 
 # Step 1: Generate RSA key pair (private and public keys)
+# Sequence unpacking
 private_key, public_key = generate_keys()
 
 # Step 2: Encrypt the message using the public key
