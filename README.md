@@ -257,13 +257,13 @@ Contributions are welcome! Please consider:
 
 ## Team Members
 
-1. Safuratu Zakaria- 10946068
+1. ⁠Kingsley Korankye Baidu - 10957342 (Team Lead)
 2. Louisa Asante - 10963188
 3. Glory Elizabeth Akoto - 10988041
 4. Vincent Oheneba Dzifa - 10983369
 5. ⁠Joshua Norvor- 10825621
 6. Senayah Courage Kofi- 10962168
-7. ⁠Kingsley Korankye Baidu - 10957342
+7. Safuratu Zakaria- 10946068
 8. ⁠Nathan Osei Henebeng - 10987269
 9. Ayimbila Nsolemna Percy - 10982355
 10. ⁠Ransford Oduro Takyi - 10948541
